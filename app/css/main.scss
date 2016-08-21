@@ -1,3 +1,31 @@
 body {
-  background-color: yellow;
+  a {
+    cursor: pointer;
+  }
+}
+
+.note-container {
+  display: flex;
+  border: 1px solid pink;
+
+  .sidebar {
+    border: 1px solid pink;
+    flex: 1;
+    a {
+      border: 1px solid pink;
+      display: block;
+      width: 100%;
+      line-height: 40px;
+    }
+  }
+
+  .note {
+    flex: 2;
+    .editor {
+      display: flex;
+      > div {
+        flex: 2;
+      }
+    }
+  }
 }

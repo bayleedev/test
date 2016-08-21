@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
 
-import { Notes } from './containers/notes'
+import { SearchWrapper } from './containers/search-wrapper'
 import '../css/main.scss'
 
 ReactDOM.render(
-  <Notes />,
+  <SearchWrapper />,
   document.getElementById('notes')
 )
