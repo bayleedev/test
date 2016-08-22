@@ -4,28 +4,15 @@ body {
   }
 }
 
-.note-container {
+.profile {
   display: flex;
-  border: 1px solid pink;
 
-  .sidebar {
+  .info {
     border: 1px solid pink;
     flex: 1;
-    a {
-      border: 1px solid pink;
-      display: block;
-      width: 100%;
-      line-height: 40px;
-    }
   }
 
-  .note {
+  .repos {
     flex: 2;
-    .editor {
-      display: flex;
-      > div {
-        flex: 2;
-      }
-    }
   }
 }

@@ -10,17 +10,17 @@ export class Profile extends Component {
 
     return (
       <div className='profile'>
-        <div className='title'>{ login }</div>
-        <div className='repos'>
+        <div className='info'>{ login }</div>
+        <ul className='repos'>
           { repos.map((repo) => {
             return (
-              <div key={repo.id}>
+              <li key={repo.id}>
                 <span>{repo.name}</span>
                 <span>{repo.description}</span>
-              </div>
+              </li>
             )
           }) }
-        </div>
+        </ul>
       </div>
     )
   }

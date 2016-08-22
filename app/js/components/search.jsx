@@ -13,7 +13,9 @@ export class Search extends Component {
 
   render () {
     return (
-      <input onKeyUp={this.handleUpdate} />
+      <div className='searchbar'>
+        <input onKeyUp={this.handleUpdate} />
+      </div>
     )
   }
 }
