@@ -1,5 +1,5 @@
 function info (name) {
-  return fetch(`https://api.github.com/users/${name}`)
+  return fetch(`https://api.github.com/orgs/${name}`)
     .then((res) => {
       return res.json()
     })
@@ -23,7 +23,7 @@ function fetchAll (url, isDone, page) {
 }
 
 function repos (name) {
-  return fetchAll(`https://api.github.com/users/${name}/repos`, (res) => {
+  return fetchAll(`https://api.github.com/orgs/${name}/repos`, (res) => {
     return res.json().then((repos) => {
       return repos.length !== 30
     })
