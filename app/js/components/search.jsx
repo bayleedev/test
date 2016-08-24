@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export class Search extends Component {
   static propTypes = {
     handleSearch: React.PropTypes.func.isRequired,
+    placeholder: React.PropTypes.string.isRequired,
   }
 
   handleUpdate = (e) => {
@@ -13,8 +14,10 @@ export class Search extends Component {
 
   render () {
     return (
-      <div className='searchbar'>
-        <input onKeyUp={this.handleUpdate} />
+      <div className='search-bar'>
+        <input
+          placeholder={this.props.placeholder}
+          onKeyUp={this.handleUpdate} />
       </div>
     )
   }

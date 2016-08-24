@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import { Search } from '../components/search'
 import { Profile } from '../components/profile'
+import { ErrorState } from '../components/error-state'
+import { LoadingSpinner } from '../components/loading-spinner'
 import { profileFetcher } from '../fetchers/profile'
 
 export class SearchWrapper extends Component {
@@ -9,25 +11,46 @@ export class SearchWrapper extends Component {
     super(props, context)
     this.state = {
       query: '',
+      loading: false,
+      error: false,
     }
   }
 
   handleSearch = (query) => {
     profileFetcher(query).then((profile) => {
       if (this.state.query === query) {
-        this.setState({ profile })
+        this.setState({
+          profile,
+          loading: false,
+        })
+      }
+    }).catch(() => {
+      if (this.state.query === query) {
+        this.setState({
+          loading: false,
+          error: true,
+        })
       }
     })
     this.setState({
       query,
+      loading: true,
+      error: false,
     })
   }
 
   render () {
     return (
       <div className='search-wrapper'>
-        <Search handleSearch={this.handleSearch} />
-        { this.state.profile && <Profile data={this.state.profile} /> }
+        <Search
+          placeholder='Search by org name...'
+          handleSearch={this.handleSearch} />
+        { this.state.error &&
+            <ErrorState /> }
+        { this.state.loading &&
+            <LoadingSpinner /> }
+        { !this.state.loading && this.state.profile &&
+            <Profile data={this.state.profile} /> }
       </div>
     )
   }

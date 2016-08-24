@@ -22,13 +22,6 @@ function fetchAll (url, isDone, page) {
   })
 }
 
-function events (name) {
-  return fetch(`https://api.github.com/users/${name}/events`)
-    .then((res) => {
-      return res.json()
-    })
-}
-
 function repos (name) {
   return fetchAll(`https://api.github.com/users/${name}/repos`, (res) => {
     return res.json().then((repos) => {
@@ -46,22 +39,14 @@ function repos (name) {
 }
 
 export function profileFetcher (name) {
-  const eventPromises = repos(name).then((respos) => {
-    debugger
-  })
-  return Promise.resolve({
-    login: 'blainesch',
-    repos: [
-      { id: 1, name: 'zazu', description: 'Well it works' },
-      { id: 2, name: 'pry.js', description: 'Debugger for node' },
-      { id: 3, name: 'alfred-chrome-bookmarks', description: 'meow' },
-    ],
-  })
   const infoPromise = info(name)
   const repoPromise = repos(name)
   return Promise.all([infoPromise, repoPromise]).then((data) => {
     const profile = data[0]
     profile.repos = data[1]
+    if (profile.message === 'Not Found') {
+      throw new Error('Not Found')
+    }
     return profile
   })
 }
