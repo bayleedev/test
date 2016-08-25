@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
+import { Profile } from './profile'
 import { Search } from '../components/search'
-import { Profile } from '../components/profile'
 import { ErrorState } from '../components/error-state'
 import { LoadingSpinner } from '../components/loading-spinner'
 import { profileFetcher } from '../fetchers/profile'
