@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import { Info } from '../components/info'
 import { Repo } from '../components/repo'
+import { transformRepos } from '../transform/repos'
 
 export class Profile extends Component {
   static propTypes = {
@@ -15,7 +16,7 @@ export class Profile extends Component {
       <div className='profile'>
         <Info { ...data } />
         <ul className='repos'>
-          { data.repos.map((repo) => {
+          { transformRepos(data.repos).map((repo) => {
             return (
               <Repo key={repo.id} { ...repo } />
             )

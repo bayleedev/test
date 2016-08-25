@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import moment from 'moment'
 
 export class Info extends Component {
   static propTypes = {
@@ -6,7 +7,6 @@ export class Info extends Component {
     login: React.PropTypes.string.isRequired,
     public_repos: React.PropTypes.number.isRequired,
     created_at: React.PropTypes.string.isRequired,
-    // created_at: React.PropTypes.instanceOf(Date).isRequired,
     avatar_url: React.PropTypes.string,
     bio: React.PropTypes.string,
     blog: React.PropTypes.string,
@@ -26,6 +26,8 @@ export class Info extends Component {
       email,
       location,
     } = this.props
+
+    const createdAtDisplay = moment(created_at).format('ll')
 
     return (
       <div className='info'>
@@ -61,7 +63,7 @@ export class Info extends Component {
           </li>
           <li className='joined'>
             <i className='fa fa-clock-o' />
-            Joined { created_at }
+            Joined on { createdAtDisplay }
           </li>
         </ul>
       </div>
