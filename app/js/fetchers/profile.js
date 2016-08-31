@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 function info (name) {
   return fetch(`https://api.github.com/orgs/${name}`)
     .then((res) => {
@@ -39,6 +41,7 @@ function repos (name) {
 }
 
 export function profileFetcher (name) {
+  return Promise.resolve(JSON.parse(fs.readFileSync('./profile.json')))
   const infoPromise = info(name)
   const repoPromise = repos(name)
   return Promise.all([infoPromise, repoPromise]).then((data) => {

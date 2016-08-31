@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import moment from 'moment'
 
 export class Repo extends Component {
   static propTypes = {
@@ -7,12 +8,24 @@ export class Repo extends Component {
   }
 
   render () {
-    const { name, description } = this.props
+    const {
+      name,
+      description,
+      language,
+      updated_at,
+      forks_count,
+      stargazers_count
+    } = this.props
 
     return (
-      <li>
-        <span>{name}</span>
-        { description && <span>{description}</span> }
+      <li className='repo'>
+        <div className={ 'container ' + language }>
+          <h2>{ name }</h2>
+          { description && <span className='description'>{description}</span> }
+          <span className='updatedAt'>Updated { moment(updated_at).fromNow() }</span>
+          <span className='badge stars'><span>{ stargazers_count }</span></span>
+          <span className='badge forks'><span>{ forks_count }</span></span>
+        </div>
       </li>
     )
   }

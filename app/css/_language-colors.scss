@@ -1,0 +1,1194 @@
+/**
+ * This file was auto generated from the json file in:
+ * https://github.com/doda/github-language-colors
+ **/
+@mixin language-colors() {
+  &.Mercury {
+    border-bottom-color: #ff2b2b;
+    &:before {
+      content: 'Mercury';
+    }
+  }
+  &.TypeScript {
+    border-bottom-color: #2b7489;
+    &:before {
+      content: 'TypeScript';
+    }
+  }
+  &.PureBasic {
+    border-bottom-color: #5a6986;
+    &:before {
+      content: 'PureBasic';
+    }
+  }
+  &.Objective-Cpp {
+    border-bottom-color: #6866fb;
+    &:before {
+      content: 'Objective-C++';
+    }
+  }
+  &.Self {
+    border-bottom-color: #0579aa;
+    &:before {
+      content: 'Self';
+    }
+  }
+  &.edn {
+    border-bottom-color: #db5855;
+    &:before {
+      content: 'edn';
+    }
+  }
+  &.NewLisp {
+    border-bottom-color: #87AED7;
+    &:before {
+      content: 'NewLisp';
+    }
+  }
+  &.Jupyter-Notebook {
+    border-bottom-color: #DA5B0B;
+    &:before {
+      content: 'Jupyter Notebook';
+    }
+  }
+  &.Rebol {
+    border-bottom-color: #358a5b;
+    &:before {
+      content: 'Rebol';
+    }
+  }
+  &.Frege {
+    border-bottom-color: #00cafe;
+    &:before {
+      content: 'Frege';
+    }
+  }
+  &.Dart {
+    border-bottom-color: #00B4AB;
+    &:before {
+      content: 'Dart';
+    }
+  }
+  &.AspectJ {
+    border-bottom-color: #a957b0;
+    &:before {
+      content: 'AspectJ';
+    }
+  }
+  &.Shell {
+    border-bottom-color: #89e051;
+    &:before {
+      content: 'Shell';
+    }
+  }
+  &.Web-Ontology-Language {
+    border-bottom-color: #9cc9dd;
+    &:before {
+      content: 'Web Ontology Language';
+    }
+  }
+  &.xBase {
+    border-bottom-color: #403a40;
+    &:before {
+      content: 'xBase';
+    }
+  }
+  &.Eiffel {
+    border-bottom-color: #946d57;
+    &:before {
+      content: 'Eiffel';
+    }
+  }
+  &.Nix {
+    border-bottom-color: #7e7eff;
+    &:before {
+      content: 'Nix';
+    }
+  }
+  &.RAML {
+    border-bottom-color: #77d9fb;
+    &:before {
+      content: 'RAML';
+    }
+  }
+  &.MTML {
+    border-bottom-color: #b7e1f4;
+    &:before {
+      content: 'MTML';
+    }
+  }
+  &.Racket {
+    border-bottom-color: #22228f;
+    &:before {
+      content: 'Racket';
+    }
+  }
+  &.Elixir {
+    border-bottom-color: #6e4a7e;
+    &:before {
+      content: 'Elixir';
+    }
+  }
+  &.SAS {
+    border-bottom-color: #B34936;
+    &:before {
+      content: 'SAS';
+    }
+  }
+  &.Agda {
+    border-bottom-color: #315665;
+    &:before {
+      content: 'Agda';
+    }
+  }
+  &.wisp {
+    border-bottom-color: #7582D1;
+    &:before {
+      content: 'wisp';
+    }
+  }
+  &.D {
+    border-bottom-color: #ba595e;
+    &:before {
+      content: 'D';
+    }
+  }
+  &.Kotlin {
+    border-bottom-color: #F18E33;
+    &:before {
+      content: 'Kotlin';
+    }
+  }
+  &.Opal {
+    border-bottom-color: #f7ede0;
+    &:before {
+      content: 'Opal';
+    }
+  }
+  &.Crystal {
+    border-bottom-color: #776791;
+    &:before {
+      content: 'Crystal';
+    }
+  }
+  &.Objective-C {
+    border-bottom-color: #438eff;
+    &:before {
+      content: 'Objective-C';
+    }
+  }
+  &.ColdFusion-CFC {
+    border-bottom-color: #ed2cd6;
+    &:before {
+      content: 'ColdFusion CFC';
+    }
+  }
+  &.Oz {
+    border-bottom-color: #fab738;
+    &:before {
+      content: 'Oz';
+    }
+  }
+  &.Mirah {
+    border-bottom-color: #c7a938;
+    &:before {
+      content: 'Mirah';
+    }
+  }
+  &.Objective-J {
+    border-bottom-color: #ff0c5a;
+    &:before {
+      content: 'Objective-J';
+    }
+  }
+  &.Gosu {
+    border-bottom-color: #82937f;
+    &:before {
+      content: 'Gosu';
+    }
+  }
+  &.FreeMarker {
+    border-bottom-color: #0050b2;
+    &:before {
+      content: 'FreeMarker';
+    }
+  }
+  &.Ruby {
+    border-bottom-color: #701516;
+    &:before {
+      content: 'Ruby';
+    }
+  }
+  &.Component-Pascal {
+    border-bottom-color: #b0ce4e;
+    &:before {
+      content: 'Component Pascal';
+    }
+  }
+  &.Arc {
+    border-bottom-color: #aa2afe;
+    &:before {
+      content: 'Arc';
+    }
+  }
+  &.Brainfuck {
+    border-bottom-color: #2F2530;
+    &:before {
+      content: 'Brainfuck';
+    }
+  }
+  &.Nit {
+    border-bottom-color: #009917;
+    &:before {
+      content: 'Nit';
+    }
+  }
+  &.APL {
+    border-bottom-color: #5A8164;
+    &:before {
+      content: 'APL';
+    }
+  }
+  &.Go {
+    border-bottom-color: #375eab;
+    &:before {
+      content: 'Go';
+    }
+  }
+  &.Visual-Basic {
+    border-bottom-color: #945db7;
+    &:before {
+      content: 'Visual Basic';
+    }
+  }
+  &.PHP {
+    border-bottom-color: #4F5D95;
+    &:before {
+      content: 'PHP';
+    }
+  }
+  &.Cirru {
+    border-bottom-color: #ccccff;
+    &:before {
+      content: 'Cirru';
+    }
+  }
+  &.SQF {
+    border-bottom-color: #3F3F3F;
+    &:before {
+      content: 'SQF';
+    }
+  }
+  &.Glyph {
+    border-bottom-color: #e4cc98;
+    &:before {
+      content: 'Glyph';
+    }
+  }
+  &.Java {
+    border-bottom-color: #b07219;
+    &:before {
+      content: 'Java';
+    }
+  }
+  &.MAXScript {
+    border-bottom-color: #00a6a6;
+    &:before {
+      content: 'MAXScript';
+    }
+  }
+  &.Scala {
+    border-bottom-color: #DC322F;
+    &:before {
+      content: 'Scala';
+    }
+  }
+  &.Makefile {
+    border-bottom-color: #427819;
+    &:before {
+      content: 'Makefile';
+    }
+  }
+  &.ColdFusion {
+    border-bottom-color: #ed2cd6;
+    &:before {
+      content: 'ColdFusion';
+    }
+  }
+  &.Perl {
+    border-bottom-color: #0298c3;
+    &:before {
+      content: 'Perl';
+    }
+  }
+  &.Lua {
+    border-bottom-color: #000080;
+    &:before {
+      content: 'Lua';
+    }
+  }
+  &.Vue {
+    border-bottom-color: #2c3e50;
+    &:before {
+      content: 'Vue';
+    }
+  }
+  &.Verilog {
+    border-bottom-color: #b2b7f8;
+    &:before {
+      content: 'Verilog';
+    }
+  }
+  &.Factor {
+    border-bottom-color: #636746;
+    &:before {
+      content: 'Factor';
+    }
+  }
+  &.Haxe {
+    border-bottom-color: #df7900;
+    &:before {
+      content: 'Haxe';
+    }
+  }
+  &.Pure-Data {
+    border-bottom-color: #91de79;
+    &:before {
+      content: 'Pure Data';
+    }
+  }
+  &.Forth {
+    border-bottom-color: #341708;
+    &:before {
+      content: 'Forth';
+    }
+  }
+  &.Red {
+    border-bottom-color: #ee0000;
+    &:before {
+      content: 'Red';
+    }
+  }
+  &.Hy {
+    border-bottom-color: #7790B2;
+    &:before {
+      content: 'Hy';
+    }
+  }
+  &.Volt {
+    border-bottom-color: #1F1F1F;
+    &:before {
+      content: 'Volt';
+    }
+  }
+  &.LSL {
+    border-bottom-color: #3d9970;
+    &:before {
+      content: 'LSL';
+    }
+  }
+  &.eC {
+    border-bottom-color: #913960;
+    &:before {
+      content: 'eC';
+    }
+  }
+  &.CoffeeScript {
+    border-bottom-color: #244776;
+    &:before {
+      content: 'CoffeeScript';
+    }
+  }
+  &.HTML {
+    border-bottom-color: #e44b23;
+    &:before {
+      content: 'HTML';
+    }
+  }
+  &.Lex {
+    border-bottom-color: #DBCA00;
+    &:before {
+      content: 'Lex';
+    }
+  }
+  &.API-Blueprint {
+    border-bottom-color: #2ACCA8;
+    &:before {
+      content: 'API Blueprint';
+    }
+  }
+  &.Swift {
+    border-bottom-color: #ffac45;
+    &:before {
+      content: 'Swift';
+    }
+  }
+  &.C {
+    border-bottom-color: #555555;
+    &:before {
+      content: 'C';
+    }
+  }
+  &.AutoHotkey {
+    border-bottom-color: #6594b9;
+    &:before {
+      content: 'AutoHotkey';
+    }
+  }
+  &.Isabelle {
+    border-bottom-color: #FEFE00;
+    &:before {
+      content: 'Isabelle';
+    }
+  }
+  &.Metal {
+    border-bottom-color: #8f14e9;
+    &:before {
+      content: 'Metal';
+    }
+  }
+  &.Clarion {
+    border-bottom-color: #db901e;
+    &:before {
+      content: 'Clarion';
+    }
+  }
+  &.JSONiq {
+    border-bottom-color: #40d47e;
+    &:before {
+      content: 'JSONiq';
+    }
+  }
+  &.Boo {
+    border-bottom-color: #d4bec1;
+    &:before {
+      content: 'Boo';
+    }
+  }
+  &.AutoIt {
+    border-bottom-color: #1C3552;
+    &:before {
+      content: 'AutoIt';
+    }
+  }
+  &.Clojure {
+    border-bottom-color: #db5855;
+    &:before {
+      content: 'Clojure';
+    }
+  }
+  &.Rust {
+    border-bottom-color: #dea584;
+    &:before {
+      content: 'Rust';
+    }
+  }
+  &.Prolog {
+    border-bottom-color: #74283c;
+    &:before {
+      content: 'Prolog';
+    }
+  }
+  &.SourcePawn {
+    border-bottom-color: #5c7611;
+    &:before {
+      content: 'SourcePawn';
+    }
+  }
+  &.AMPL {
+    border-bottom-color: #E6EFBB;
+    &:before {
+      content: 'AMPL';
+    }
+  }
+  &.FORTRAN {
+    border-bottom-color: #4d41b1;
+    &:before {
+      content: 'FORTRAN';
+    }
+  }
+  &.ANTLR {
+    border-bottom-color: #9DC3FF;
+    &:before {
+      content: 'ANTLR';
+    }
+  }
+  &.Harbour {
+    border-bottom-color: #0e60e3;
+    &:before {
+      content: 'Harbour';
+    }
+  }
+  &.Tcl {
+    border-bottom-color: #e4cc98;
+    &:before {
+      content: 'Tcl';
+    }
+  }
+  &.BlitzMax {
+    border-bottom-color: #cd6400;
+    &:before {
+      content: 'BlitzMax';
+    }
+  }
+  &.PigLatin {
+    border-bottom-color: #fcd7de;
+    &:before {
+      content: 'PigLatin';
+    }
+  }
+  &.Lasso {
+    border-bottom-color: #999999;
+    &:before {
+      content: 'Lasso';
+    }
+  }
+  &.ECL {
+    border-bottom-color: #8a1267;
+    &:before {
+      content: 'ECL';
+    }
+  }
+  &.VHDL {
+    border-bottom-color: #adb2cb;
+    &:before {
+      content: 'VHDL';
+    }
+  }
+  &.Elm {
+    border-bottom-color: #60B5CC;
+    &:before {
+      content: 'Elm';
+    }
+  }
+  &.Propeller-Spin {
+    border-bottom-color: #7fa2a7;
+    &:before {
+      content: 'Propeller Spin';
+    }
+  }
+  &.X10 {
+    border-bottom-color: #4B6BEF;
+    &:before {
+      content: 'X10';
+    }
+  }
+  &.IDL {
+    border-bottom-color: #a3522f;
+    &:before {
+      content: 'IDL';
+    }
+  }
+  &.ATS {
+    border-bottom-color: #1ac620;
+    &:before {
+      content: 'ATS';
+    }
+  }
+  &.Ada {
+    border-bottom-color: #02f88c;
+    &:before {
+      content: 'Ada';
+    }
+  }
+  &.Unity3D-Asset {
+    border-bottom-color: #ab69a1;
+    &:before {
+      content: 'Unity3D Asset';
+    }
+  }
+  &.Nu {
+    border-bottom-color: #c9df40;
+    &:before {
+      content: 'Nu';
+    }
+  }
+  &.LFE {
+    border-bottom-color: #004200;
+    &:before {
+      content: 'LFE';
+    }
+  }
+  &.SuperCollider {
+    border-bottom-color: #46390b;
+    &:before {
+      content: 'SuperCollider';
+    }
+  }
+  &.Oxygene {
+    border-bottom-color: #cdd0e3;
+    &:before {
+      content: 'Oxygene';
+    }
+  }
+  &.ASP {
+    border-bottom-color: #6a40fd;
+    &:before {
+      content: 'ASP';
+    }
+  }
+  &.Assembly {
+    border-bottom-color: #6E4C13;
+    &:before {
+      content: 'Assembly';
+    }
+  }
+  &.Gnuplot {
+    border-bottom-color: #f0a9f0;
+    &:before {
+      content: 'Gnuplot';
+    }
+  }
+  &.JFlex {
+    border-bottom-color: #DBCA00;
+    &:before {
+      content: 'JFlex';
+    }
+  }
+  &.NetLinx {
+    border-bottom-color: #0aa0ff;
+    &:before {
+      content: 'NetLinx';
+    }
+  }
+  &.Turing {
+    border-bottom-color: #45f715;
+    &:before {
+      content: 'Turing';
+    }
+  }
+  &.Vala {
+    border-bottom-color: #fbe5cd;
+    &:before {
+      content: 'Vala';
+    }
+  }
+  &.Processing {
+    border-bottom-color: #0096D8;
+    &:before {
+      content: 'Processing';
+    }
+  }
+  &.Arduino {
+    border-bottom-color: #bd79d1;
+    &:before {
+      content: 'Arduino';
+    }
+  }
+  &.FLUX {
+    border-bottom-color: #88ccff;
+    &:before {
+      content: 'FLUX';
+    }
+  }
+  &.NetLogo {
+    border-bottom-color: #ff6375;
+    &:before {
+      content: 'NetLogo';
+    }
+  }
+  &.C-Sharp {
+    border-bottom-color: #178600;
+    &:before {
+      content: 'C Sharp';
+    }
+  }
+  &.CSS {
+    border-bottom-color: #563d7c;
+    &:before {
+      content: 'CSS';
+    }
+  }
+  &.Emacs-Lisp {
+    border-bottom-color: #c065db;
+    &:before {
+      content: 'Emacs Lisp';
+    }
+  }
+  &.Stan {
+    border-bottom-color: #b2011d;
+    &:before {
+      content: 'Stan';
+    }
+  }
+  &.SaltStack {
+    border-bottom-color: #646464;
+    &:before {
+      content: 'SaltStack';
+    }
+  }
+  &.QML {
+    border-bottom-color: #44a51c;
+    &:before {
+      content: 'QML';
+    }
+  }
+  &.Pike {
+    border-bottom-color: #005390;
+    &:before {
+      content: 'Pike';
+    }
+  }
+  &.LOLCODE {
+    border-bottom-color: #cc9900;
+    &:before {
+      content: 'LOLCODE';
+    }
+  }
+  &.ooc {
+    border-bottom-color: #b0b77e;
+    &:before {
+      content: 'ooc';
+    }
+  }
+  &.Handlebars {
+    border-bottom-color: #01a9d6;
+    &:before {
+      content: 'Handlebars';
+    }
+  }
+  &.J {
+    border-bottom-color: #9EEDFF;
+    &:before {
+      content: 'J';
+    }
+  }
+  &.Mask {
+    border-bottom-color: #f97732;
+    &:before {
+      content: 'Mask';
+    }
+  }
+  &.EmberScript {
+    border-bottom-color: #FFF4F3;
+    &:before {
+      content: 'EmberScript';
+    }
+  }
+  &.TeX {
+    border-bottom-color: #3D6117;
+    &:before {
+      content: 'TeX';
+    }
+  }
+  &.Nemerle {
+    border-bottom-color: #3d3c6e;
+    &:before {
+      content: 'Nemerle';
+    }
+  }
+  &.KRL {
+    border-bottom-color: #28431f;
+    &:before {
+      content: 'KRL';
+    }
+  }
+  &.RenPy {
+    border-bottom-color: #ff7f7f;
+    &:before {
+      content: 'Ren\'Py';
+    }
+  }
+  &.Unified-Parallel-C {
+    border-bottom-color: #4e3617;
+    &:before {
+      content: 'Unified Parallel C';
+    }
+  }
+  &.Golo {
+    border-bottom-color: #88562A;
+    &:before {
+      content: 'Golo';
+    }
+  }
+  &.Fancy {
+    border-bottom-color: #7b9db4;
+    &:before {
+      content: 'Fancy';
+    }
+  }
+  &.OCaml {
+    border-bottom-color: #3be133;
+    &:before {
+      content: 'OCaml';
+    }
+  }
+  &.Shen {
+    border-bottom-color: #120F14;
+    &:before {
+      content: 'Shen';
+    }
+  }
+  &.Pascal {
+    border-bottom-color: #b0ce4e;
+    &:before {
+      content: 'Pascal';
+    }
+  }
+  &.F {
+    border-bottom-color: #b845fc;
+    &:before {
+      content: 'F#';
+    }
+  }
+  &.Puppet {
+    border-bottom-color: #302B6D;
+    &:before {
+      content: 'Puppet';
+    }
+  }
+  &.ActionScript {
+    border-bottom-color: #882B0F;
+    &:before {
+      content: 'ActionScript';
+    }
+  }
+  &.Diff {
+    border-bottom-color: #88dddd;
+    &:before {
+      content: 'Diff';
+    }
+  }
+  &.Ragel-in-Ruby-Host {
+    border-bottom-color: #9d5200;
+    &:before {
+      content: 'Ragel in Ruby Host';
+    }
+  }
+  &.Fantom {
+    border-bottom-color: #dbded5;
+    &:before {
+      content: 'Fantom';
+    }
+  }
+  &.Zephir {
+    border-bottom-color: #118f9e;
+    &:before {
+      content: 'Zephir';
+    }
+  }
+  &.Click {
+    border-bottom-color: #E4E6F3;
+    &:before {
+      content: 'Click';
+    }
+  }
+  &.Smalltalk {
+    border-bottom-color: #596706;
+    &:before {
+      content: 'Smalltalk';
+    }
+  }
+  &.DM {
+    border-bottom-color: #447265;
+    &:before {
+      content: 'DM';
+    }
+  }
+  &.Ioke {
+    border-bottom-color: #078193;
+    &:before {
+      content: 'Ioke';
+    }
+  }
+  &.PogoScript {
+    border-bottom-color: #d80074;
+    &:before {
+      content: 'PogoScript';
+    }
+  }
+  &.LiveScript {
+    border-bottom-color: #499886;
+    &:before {
+      content: 'LiveScript';
+    }
+  }
+  &.JavaScript {
+    border-bottom-color: #f1e05a;
+    &:before {
+      content: 'JavaScript';
+    }
+  }
+  &.VimL {
+    border-bottom-color: #199f4b;
+    &:before {
+      content: 'VimL';
+    }
+  }
+  &.PureScript {
+    border-bottom-color: #1D222D;
+    &:before {
+      content: 'PureScript';
+    }
+  }
+  &.ABAP {
+    border-bottom-color: #E8274B;
+    &:before {
+      content: 'ABAP';
+    }
+  }
+  &.Matlab {
+    border-bottom-color: #bb92ac;
+    &:before {
+      content: 'Matlab';
+    }
+  }
+  &.Slash {
+    border-bottom-color: #007eff;
+    &:before {
+      content: 'Slash';
+    }
+  }
+  &.R {
+    border-bottom-color: #198ce7;
+    &:before {
+      content: 'R';
+    }
+  }
+  &.Erlang {
+    border-bottom-color: #B83998;
+    &:before {
+      content: 'Erlang';
+    }
+  }
+  &.Pan {
+    border-bottom-color: #cc0000;
+    &:before {
+      content: 'Pan';
+    }
+  }
+  &.LookML {
+    border-bottom-color: #652B81;
+    &:before {
+      content: 'LookML';
+    }
+  }
+  &.Eagle {
+    border-bottom-color: #814C05;
+    &:before {
+      content: 'Eagle';
+    }
+  }
+  &.Scheme {
+    border-bottom-color: #1e4aec;
+    &:before {
+      content: 'Scheme';
+    }
+  }
+  &.PLSQL {
+    border-bottom-color: #dad8d8;
+    &:before {
+      content: 'PLSQL';
+    }
+  }
+  &.Python {
+    border-bottom-color: #3572A5;
+    &:before {
+      content: 'Python';
+    }
+  }
+  &.Max {
+    border-bottom-color: #c4a79c;
+    &:before {
+      content: 'Max';
+    }
+  }
+  &.Common-Lisp {
+    border-bottom-color: #3fb68b;
+    &:before {
+      content: 'Common Lisp';
+    }
+  }
+  &.Latte {
+    border-bottom-color: #A8FF97;
+    &:before {
+      content: 'Latte';
+    }
+  }
+  &.XQuery {
+    border-bottom-color: #5232e7;
+    &:before {
+      content: 'XQuery';
+    }
+  }
+  &.Omgrofl {
+    border-bottom-color: #cabbff;
+    &:before {
+      content: 'Omgrofl';
+    }
+  }
+  &.XC {
+    border-bottom-color: #99DA07;
+    &:before {
+      content: 'XC';
+    }
+  }
+  &.Nimrod {
+    border-bottom-color: #37775b;
+    &:before {
+      content: 'Nimrod';
+    }
+  }
+  &.SystemVerilog {
+    border-bottom-color: #DAE1C2;
+    &:before {
+      content: 'SystemVerilog';
+    }
+  }
+  &.Chapel {
+    border-bottom-color: #8dc63f;
+    &:before {
+      content: 'Chapel';
+    }
+  }
+  &.Groovy {
+    border-bottom-color: #e69f56;
+    &:before {
+      content: 'Groovy';
+    }
+  }
+  &.Dylan {
+    border-bottom-color: #6c616e;
+    &:before {
+      content: 'Dylan';
+    }
+  }
+  &.E {
+    border-bottom-color: #ccce35;
+    &:before {
+      content: 'E';
+    }
+  }
+  &.Parrot {
+    border-bottom-color: #f3ca0a;
+    &:before {
+      content: 'Parrot';
+    }
+  }
+  &.Grammatical-Framework {
+    border-bottom-color: #79aa7a;
+    &:before {
+      content: 'Grammatical Framework';
+    }
+  }
+  &.Game-Maker-Language {
+    border-bottom-color: #8fb200;
+    &:before {
+      content: 'Game Maker Language';
+    }
+  }
+  &.Papyrus {
+    border-bottom-color: #6600cc;
+    &:before {
+      content: 'Papyrus';
+    }
+  }
+  &.NetLinx+ERB {
+    border-bottom-color: #747faa;
+    &:before {
+      content: 'NetLinx+ERB';
+    }
+  }
+  &.Clean {
+    border-bottom-color: #3F85AF;
+    &:before {
+      content: 'Clean';
+    }
+  }
+  &.Alloy {
+    border-bottom-color: #64C800;
+    &:before {
+      content: 'Alloy';
+    }
+  }
+  &.Squirrel {
+    border-bottom-color: #800000;
+    &:before {
+      content: 'Squirrel';
+    }
+  }
+  &.PAWN {
+    border-bottom-color: #dbb284;
+    &:before {
+      content: 'PAWN';
+    }
+  }
+  &.UnrealScript {
+    border-bottom-color: #a54c4d;
+    &:before {
+      content: 'UnrealScript';
+    }
+  }
+  &.Standard-ML {
+    border-bottom-color: #dc566d;
+    &:before {
+      content: 'Standard ML';
+    }
+  }
+  &.Slim {
+    border-bottom-color: #ff8f77;
+    &:before {
+      content: 'Slim';
+    }
+  }
+  &.Perl6 {
+    border-bottom-color: #0000fb;
+    &:before {
+      content: 'Perl6';
+    }
+  }
+  &.Julia {
+    border-bottom-color: #a270ba;
+    &:before {
+      content: 'Julia';
+    }
+  }
+  &.Haskell {
+    border-bottom-color: #29b544;
+    &:before {
+      content: 'Haskell';
+    }
+  }
+  &.NCL {
+    border-bottom-color: #28431f;
+    &:before {
+      content: 'NCL';
+    }
+  }
+  &.Io {
+    border-bottom-color: #a9188d;
+    &:before {
+      content: 'Io';
+    }
+  }
+  &.Rouge {
+    border-bottom-color: #cc0088;
+    &:before {
+      content: 'Rouge';
+    }
+  }
+  &.cpp {
+    border-bottom-color: #f34b7d;
+    &:before {
+      content: 'cpp';
+    }
+  }
+  &.AGS-Script {
+    border-bottom-color: #B9D9FF;
+    &:before {
+      content: 'AGS Script';
+    }
+  }
+  &.Dogescript {
+    border-bottom-color: #cca760;
+    &:before {
+      content: 'Dogescript';
+    }
+  }
+  &.nesC {
+    border-bottom-color: #94B0C7;
+    &:before {
+      content: 'nesC';
+    }
+  }
+}

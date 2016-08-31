@@ -10,10 +10,14 @@ export class SearchWrapper extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
-      query: '',
+      query: 'blainesch',
       loading: false,
       error: false,
     }
+  }
+
+  componentWillMount () {
+    this.handleSearch()
   }
 
   handleSearch = (query) => {

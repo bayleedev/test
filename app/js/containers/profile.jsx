@@ -15,13 +15,13 @@ export class Profile extends Component {
     return (
       <div className='profile'>
         <Info { ...data } />
-        <ul className='repos'>
+        <ol className='repos'>
           { transformRepos(data.repos).map((repo) => {
             return (
               <Repo key={repo.id} { ...repo } />
             )
           }) }
-        </ul>
+        </ol>
       </div>
     )
   }

@@ -5,6 +5,8 @@ const nodeModules = fs.readdirSync('app/node_modules').filter((dep) => {
   return dep !== '.bin'
 })
 
+nodeModules.splice(0, 0, 'fs')
+
 module.exports = {
   entry: path.join(__dirname, 'app/js/index.jsx'),
   output: {
